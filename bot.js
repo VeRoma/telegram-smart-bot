@@ -5,10 +5,7 @@ const { OpenAI } = require("openai");
 const { Telegraf } = require("telegraf");
 const { message } = require("telegraf/filters");
 
-/*
-const openai = new OpenAI({
-    apiKey: "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",
-}); //  */
+
 
 const openai = new OpenAI(process.env.OPENAI_API_KEY);
 
